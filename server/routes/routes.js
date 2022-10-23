@@ -10,3 +10,6 @@ router.post(
   body("password").notEmpty(),
   logicRoutes.registerUser
 );
+
+
+module.exports = router;

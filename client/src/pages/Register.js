@@ -9,13 +9,14 @@ function Register() {
     fetch("http://localhost:4008/register", 
     { method: "POST",
     headers: {
-      "Content-Type": "application/ json"
+      "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      username,
-      password,
+      "username": username,
+      "password": password,
     }),
-  });
+  }).then(res =>
+    console.log(res));
   };
 
   return (
