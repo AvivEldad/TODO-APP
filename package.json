@@ -1,0 +1,29 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvivEldad/TODO-APP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvivEldad/TODO-APP/issues"
+  },
+  "homepage": "https://github.com/AvivEldad/TODO-APP#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22"
+  }
+}
